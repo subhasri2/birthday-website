@@ -8,7 +8,7 @@ export function BirthdayHero() {
       {/* Background Image */}
       <div className="absolute inset-0 opacity-20">
         <ImageWithFallback
-          src="/images/hero-bg.jpg"
+          src="/birthday-website/images/hero-bg.jpg"
           alt="Birthday celebration background"
           className="w-full h-full object-cover"
           style={{ objectPosition: 'center 60%' }}

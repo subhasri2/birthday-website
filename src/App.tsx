@@ -43,7 +43,7 @@ function App() {
           autoPlay
           loop
           muted={isMuted}
-          src="/music/birthday_song.mp3"
+          src="/birthday-website/music/birthday_song.mp3"
           onTimeUpdate={(e) => {
             const audio = e.currentTarget;
             if (audio.currentTime >= 35) {

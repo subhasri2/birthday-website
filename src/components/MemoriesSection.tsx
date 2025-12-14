@@ -22,12 +22,12 @@ export function MemoriesSection() {
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {[
-            "/memories/memory3.jpg",
-            "/memories/memory6.jpg",
-            "/memories/memory7.jpg",
-            "/memories/memory8.jpg",
-            "/memories/memory9.jpg",
-            "/memories/memory10.jpg"
+            "/birthday-website/memories/memory3.jpg",
+            "/birthday-website/memories/memory6.jpg",
+            "/birthday-website/memories/memory7.jpg",
+            "/birthday-website/memories/memory8.jpg",
+            "/birthday-website/memories/memory9.jpg",
+            "/birthday-website/memories/memory10.jpg"
           ].map((src, index) => (
             <motion.div
               key={index}
