@@ -38,7 +38,7 @@ export function MemoriesSection() {
             >
               <Card className="aspect-square bg-gradient-to-br from-pink-200 to-rose-300 border-pink-300 shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden relative group">
                 <img
-                  src={import.meta.env.BASE_URL + src}
+                  src={`/birthday-website/${src}`}
                   alt={`Memory ${index + 1}`}
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                   style={index === 5 ? { objectPosition: 'center 20%' } : undefined}
