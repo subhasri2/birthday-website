@@ -22,12 +22,12 @@ export function MemoriesSection() {
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {[
-            "/birthday-website/memories/memory3.jpg",
-            "/birthday-website/memories/memory6.jpg",
-            "/birthday-website/memories/memory7.jpg",
-            "/birthday-website/memories/memory8.jpg",
-            "/birthday-website/memories/memory9.jpg",
-            "/birthday-website/memories/memory10.jpg"
+            "memories/memory3.jpg",
+            "memories/memory6.jpg",
+            "memories/memory7.jpg",
+            "memories/memory8.jpg",
+            "memories/memory9.jpg",
+            "memories/memory10.jpg"
           ].map((src, index) => (
             <motion.div
               key={index}
@@ -38,7 +38,7 @@ export function MemoriesSection() {
             >
               <Card className="aspect-square bg-gradient-to-br from-pink-200 to-rose-300 border-pink-300 shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden relative group">
                 <img
-                  src={src}
+                  src={import.meta.env.BASE_URL + src}
                   alt={`Memory ${index + 1}`}
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                   style={index === 5 ? { objectPosition: 'center 20%' } : undefined}
